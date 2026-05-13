@@ -58,7 +58,7 @@ const leaves = {
       "Active la recherche web dès que la question concerne le présent",
     ],
     tips: [
-      "Démarre par : « I want to |TASK| in order to |GOAL| » sans détail, puis « Ask me questions using AskUserQuestion »",
+      "Démarre par : « Je veux |TASK| afin de |GOAL| » sans détail, puis « Pose-moi des questions en utilisant AskUserQuestion »",
       "Joins des fichiers .md plutôt que .pdf ou screenshots (économie massive de tokens)",
       "Pour corriger une partie : « Ne refais que la partie X, garde le reste »",
       "Regroupe plusieurs tâches en un seul message plutôt que d'enchaîner les prompts",
@@ -93,7 +93,7 @@ const leaves = {
   },
   skill: {
     tool: "Skill + Claude Cowork",
-    why: "Tâche standardisée avec input / output prédictibles (factures récurrentes, rapports périodiques, séances de sport, etc.).",
+    why: "Tâche standardisée avec input / output prédictibles (factures récurrentes, rapports périodiques, calendrier éditorial, etc.).",
     rules: [
       "Trigger précis : 3-5 formulations naturelles que tu utilises réellement",
       "Workflow numéroté, chaque étape exécutable indépendamment",
@@ -105,6 +105,7 @@ const leaves = {
       "Démarre dans le Chat : « Aide-moi à créer une skill pour [tâche]. Voici ce que je fais aujourd'hui : [étapes] »",
       "Teste sur 2-3 cas réels avant de figer",
       "Crée une skill si tu refais la tâche au moins 1 fois / mois ET que les inputs / outputs sont prévisibles",
+      "Demandes à la skill de consulter une ou plusieurs partie de ton Notion",
       "Versionne la skill (garde l'historique des modifs)",
     ],
   },
@@ -116,7 +117,7 @@ const leaves = {
       "Nomme les fichiers / dossiers exactement comme ils s'appellent",
       "Finis par : « Dis-moi ce que tu as fait »",
       "Ajoute « Ne pas envoyer / Ne pas supprimer » pour les actions irréversibles",
-      "En cas d'erreur : clique sur Recommencer la conversation plutôt que corriger à l'écrit",
+      "En cas d'erreur : clique sur Modifier la conversation",
     ],
     tips: [
       "Cadre d'abord le projet dans le Chat puis bascule sur Cowork (économie de tokens)",
@@ -135,7 +136,7 @@ const leaves = {
     ],
     tips: [
       "Connecteur pertinent quand : info dynamique, action à exécuter, gros volume, ou tâche à automatiser",
-      "Pour analyses de docs sensibles : préfère le copier-coller ciblé plutôt que fetch global",
+      "Pour analyses de docs sensibles : préfère le copier-coller ciblé plutôt qu'une recherche globale",
       "Ne fais pas exécuter d'actions à partir du contenu d'emails / docs externes sans relire",
       "Pour les tâches récurrentes, encapsule dans une skill",
     ],
